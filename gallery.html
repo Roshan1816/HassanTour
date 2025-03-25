@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hassan Photo Gallery - Explore Hassan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0/css/lightgallery.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header (same as index.html) -->
+    <header>
+      <!-- Copy header from index.html -->
+    </header>
+
+    <!-- Page Banner -->
+    <section
+      class="page-banner"
+      style="
+        background-image: url('https://res.cloudinary.com/chasset/image/upload/c_scale,dpr_auto,e_improve,f_webp,w_auto/v1/hbimages/mobile/location/1644506126779-Bisle-Ghat-View-Point-Hassan-Karnataka-India-2022-Image.jpg');
+      "
+    >
+      <div class="container">
+        <h1>Hassan Gallery</h1>
+        <p>Visual journey through Hassan's beautiful landscapes and heritage</p>
+      </div>
+    </section>
+
+    <!-- Gallery Content -->
+    <section class="gallery">
+      <div class="container">
+        <div class="gallery-filter">
+          <h3>Filter by:</h3>
+          <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="temples">Temples</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="culture">Culture</button>
+            <button class="filter-btn" data-filter="food">Food</button>
+          </div>
+        </div>
+
+        <div class="gallery-grid" id="lightgallery">
+          <!-- Temple Photos -->
+          <a
+            href="https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2020/04/places-to-visit-in-Hassan.jpg?fit=864%2C547&ssl=1"
+            class="gallery-item"
+            data-category="temples"
+            data-sub-html="<h4>Chennakesava Temple, Belur</h4><p>12th century Hoysala temple with intricate carvings</p>"
+          >
+            <img
+              src="https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2020/04/places-to-visit-in-Hassan.jpg?fit=864%2C547&ssl=1"
+              alt="Belur Temple"
+            />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+              <p>Chennakesava Temple</p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.nativeplanet.com/photos/212x302x100/2012/03/_13323106820.jpg"
+            class="gallery-item"
+            data-category="temples"
+            data-sub-html="<h4>Hoysaleswara Temple, Halebidu</h4><p>Magnificent temple with thousands of sculptures</p>"
+          >
+            <img
+              src="https://www.nativeplanet.com/photos/212x302x100/2012/03/_13323106820.jpg"
+              alt="Halebidu Temple"
+            />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+              <p>Halebidu Temple</p>
+            </div>
+          </a>
+
+          <!-- Nature Photos -->
+          <a
+            href="https://hblimg.mmtcdn.com/content/hubble/img/desttvimg/mmt/destination/m_Chikmagalur_tv_destination_img_4_l_635_952.jpg"
+            class="gallery-item"
+            data-category="nature"
+            data-sub-html="<h4>Gorur Dam</h4><p>Scenic dam on Hemavati river near Hassan</p>"
+          >
+            <img
+              src="https://hblimg.mmtcdn.com/content/hubble/img/desttvimg/mmt/destination/m_Chikmagalur_tv_destination_img_4_l_635_952.jpg"
+              alt="Gorur Dam"
+            />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+              <p>Gorur Dam</p>
+            </div>
+          </a>
+
+          <a
+            href="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/2/2017/09/31221938/PlantationTrailsByTataCoffee-f.jpg"
+            class="gallery-item"
+            data-category="nature"
+            data-sub-html="<h4>Coffee Plantation</h4><p>Lush coffee estates in Sakleshpur region</p>"
+          >
+            <img
+              src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/2/2017/09/31221938/PlantationTrailsByTataCoffee-f.jpg"
+              alt="Coffee Estate"
+            />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+              <p>Coffee Plantation</p>
+            </div>
+          </a>
+
+          <!-- Culture Photos -->
+          <a
+            href="https://www.homestayadvisor.in/uploads/2/1/7/1/21711386/shravanabelagola2_orig.jpg"
+            class="gallery-item"
+            data-category="culture"
+            data-sub-html="<h4>Gommateshwara Statue</h4><p>57-foot monolithic statue at Shravanabelagola</p>"
+          >
+            <img
+              src="https://www.homestayadvisor.in/uploads/2/1/7/1/21711386/shravanabelagola2_orig.jpg"
+              alt="Bahubali Statue"
+            />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+              <p>Gommateshwara</p>
+            </div>
+          </a>
+
+          <a
+            href="https://hblimg.mmtcdn.com/content/hubble/img/tvdestinationimages/mmt/activities/m_Purulia_tv_destination_img_5_l_667_1000.jpg"
+            class="gallery-item"
+            data-category="culture"
+            data-sub-html="<h4>Traditional Festival</h4><p>Local festival celebration in Hassan</p>"
+          >
+            <img
+              src="https://hblimg.mmtcdn.com/content/hubble/img/tvdestinationimages/mmt/activities/m_Purulia_tv_destination_img_5_l_667_1000.jpg"
+              alt="Festival"
+            />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+              <p>Local Festival</p>
+            </div>
+          </a>
+
+          <!-- Food Photos -->
+          <a
+            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4fUR4rcKPhP2Ml4YxNOvFQmKXLzinBjQqA&s"
+            class="gallery-item"
+            data-category="food"
+            data-sub-html="<h4>Traditional Meal</h4><p>Authentic Kannada thali with local specialties</p>"
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4fUR4rcKPhP2Ml4YxNOvFQmKXLzinBjQqA&s"
+              alt="Kannada Meal"
+            />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+              <p>Traditional Meal</p>
+            </div>
+          </a>
+
+          <a
+            href="https://content.jdmagicbox.com/comp/hassan/b6/9999p8172.8172.230824165057.g6b6/catalogue/hatti-kaapi-kr-puram-hassan-hassan-fast-food-9ii1497pm2.jpg"
+            class="gallery-item"
+            data-category="food"
+            data-sub-html="<h4>Fresh Coffee</h4><p>Freshly brewed coffee from Hassan's plantations</p>"
+          >
+            <img
+              src="https://content.jdmagicbox.com/comp/hassan/b6/9999p8172.8172.230824165057.g6b6/catalogue/hatti-kaapi-kr-puram-hassan-hassan-fast-food-9ii1497pm2.jpg"
+              alt="Coffee"
+            />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+              <p>Fresh Coffee</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram Feed -->
+    <section class="instagram-feed">
+      <div class="container">
+        <h2>#ExploreHassan on Instagram</h2>
+        <div class="insta-grid">
+          <!-- These would be populated via Instagram API or manually -->
+          <div class="insta-item">
+            <img
+              src="https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2020/04/places-to-visit-in-Hassan.jpg?fit=864%2C547&ssl=1"
+              alt="Instagram post"
+            />
+            <div class="insta-overlay">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <div class="insta-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2z8RNqBtwYgbtZCJC_Q8IwliowR7kjEes7Q&s"
+              alt="Instagram post"
+            />
+            <div class="insta-overlay">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <div class="insta-item">
+            <img
+              src="https://avathioutdoors.gumlet.io/travelGuide/dev/hassan85249.jpg?format=webp&w=600&dpr=2.6"
+              alt="Instagram post"
+            />
+            <div class="insta-overlay">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <div class="insta-item">
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/1e/61/ed/38/elevation.jpg"
+              alt="Instagram post"
+            />
+            <div class="insta-overlay">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <div class="insta-item">
+            <img
+              src="https://c8.alamy.com/comp/2A70N5R/during-a-festival-around-balkrishna-temple-in-udipi-karnataka-india-giant-warrior-puppets-with-a-man-each-hidden-inside-take-part-in-a-procession-2A70N5R.jpg"
+              alt="Instagram post"
+            />
+            <div class="insta-overlay">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <div class="insta-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4fUR4rcKPhP2Ml4YxNOvFQmKXLzinBjQqA&s"
+              alt="Instagram post"
+            />
+            <div class="insta-overlay">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+        <a
+          href="https://instagram.com/explore/tags/explorehassan"
+          class="btn"
+          target="_blank"
+          >View More</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer>
+      <!-- Copy footer from index.html -->
+    </footer>
+
+    <!-- Lightgallery JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0/lightgallery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      // Initialize lightGallery
+      document.addEventListener("DOMContentLoaded", function () {
+        const gallery = document.getElementById("lightgallery");
+        lightGallery(gallery, {
+          selector: ".gallery-item",
+          download: false,
+          counter: false,
+        });
+
+        // Filter functionality for gallery
+        const filterButtons = document.querySelectorAll(
+          ".gallery-filter .filter-btn"
+        );
+
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            // Remove active class from all buttons
+            filterButtons.forEach((btn) => btn.classList.remove("active"));
+            // Add active class to clicked button
+            this.classList.add("active");
+
+            const filterValue = this.getAttribute("data-filter");
+            const galleryItems = document.querySelectorAll(".gallery-item");
+
+            galleryItems.forEach((item) => {
+              if (filterValue === "all") {
+                item.style.display = "block";
+              } else {
+                if (item.getAttribute("data-category") === filterValue) {
+                  item.style.display = "block";
+                } else {
+                  item.style.display = "none";
+                }
+              }
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Explore Hassan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header (same as index.html) -->
+    <header>
+      <!-- Copy header from index.html -->
+    </header>
+
+    <!-- Page Banner -->
+    <section
+      class="page-banner"
+      style="background-image: url('images/contact-banner.jpg')"
+    >
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>Get in touch for travel information, suggestions, or partnerships</p>
+      </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact">
+      <div class="container">
+        <div class="contact-container">
+          <!-- Contact Form -->
+          <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject">
+                  <option value="general">General Inquiry</option>
+                  <option value="tourism">Tourism Information</option>
+                  <option value="partnership">Partnership Opportunity</option>
+                  <option value="feedback">Feedback/Suggestion</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Address</h3>
+                <p>
+                  Hassan District Tourism Office<br />Near Bus Stand, Hassan<br />Karnataka
+                  573201, India
+                </p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>+91 8172 123456<br />+91 9876543210 (Tourism Helpline)</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>info@explorehassan.com<br />tourism@hassandistrict.gov.in</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h3>Office Hours</h3>
+                <p>Monday to Saturday<br />9:00 AM - 6:00 PM</p>
+              </div>
+            </div>
+
+            <div class="emergency-contacts">
+              <h3>Emergency Contacts</h3>
+              <ul>
+                <li><i class="fas fa-ambulance"></i> Medical Emergency: 108</li>
+                <li><i class="fas fa-police-box"></i> Police: 100</li>
+                <li>
+                  <i class="fas fa-taxi"></i> Tourist Police: +91 8172 234567
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="contact-map">
+          <h2>Find Us on Map</h2>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15559.10796739753!2d76.0856525!3d13.00426945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba5483386aa3ffd%3A0x1e63050b5a8a9c1!2sHassan%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1621234567890!5m2!1sen!2sin"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+          <div class="faq-item">
+            <button class="faq-question">
+              What is the best time to visit Hassan?<i
+                class="fas fa-chevron-down"
+              ></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                The best time to visit Hassan is from October to February when
+                the weather is pleasant for sightseeing. The temperature ranges
+                between 15°C to 28°C during these months.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              How many days are needed to explore Hassan?<i
+                class="fas fa-chevron-down"
+              ></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                We recommend at least 2-3 days to cover the major attractions
+                like Belur, Halebidu, and Shravanabelagola. If you want to
+                explore coffee plantations and nature spots, consider 4-5 days.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Is there public transport available between tourist spots?<i
+                class="fas fa-chevron-down"
+              ></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes, KSRTC buses connect all major tourist destinations.
+                However, for more convenience and flexibility, we recommend
+                hiring a taxi or joining organized tours.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Are there good accommodation options near the temples?<i
+                class="fas fa-chevron-down"
+              ></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Belur and Halebid have limited accommodation options. Most
+                visitors stay in Hassan city which has a range of hotels from
+                budget to luxury, and make day trips to the temples.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer>
+      <!-- Copy footer from index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+      // FAQ accordion functionality
+      document.addEventListener("DOMContentLoaded", function () {
+        const faqQuestions = document.querySelectorAll(".faq-question");
+
+        faqQuestions.forEach((question) => {
+          question.addEventListener("click", function () {
+            this.classList.toggle("active");
+            const answer = this.nextElementSibling;
+
+            if (this.classList.contains("active")) {
+              answer.style.maxHeight = answer.scrollHeight + "px";
+              this.querySelector("i").classList.replace(
+                "fa-chevron-down",
+                "fa-chevron-up"
+              );
+            } else {
+              answer.style.maxHeight = 0;
+              this.querySelector("i").classList.replace(
+                "fa-chevron-up",
+                "fa-chevron-down"
+              );
+            }
+          });
+        });
+
+        // Contact form submission
+        const contactForm = document.getElementById("contactForm");
+        if (contactForm) {
+          contactForm.addEventListener("submit", function (e) {
+            e.preventDefault();
+            alert("Thank you for your message! We will get back to you soon.");
+            this.reset();
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
